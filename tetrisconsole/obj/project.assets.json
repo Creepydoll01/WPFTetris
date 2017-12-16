@@ -725,11 +725,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\tetrisconsole\\ConsoleImplementation.csproj",
+      "projectUniqueName": "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\tetrisconsole\\ConsoleImplementation.csproj",
       "projectName": "ConsoleImplementation",
-      "projectPath": "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\tetrisconsole\\ConsoleImplementation.csproj",
+      "projectPath": "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\tetrisconsole\\ConsoleImplementation.csproj",
       "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\tetrisconsole\\obj\\",
+      "outputPath": "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\tetrisconsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -748,14 +748,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\BricksClass\\BricksClass.csproj": {
-              "projectPath": "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\BricksClass\\BricksClass.csproj"
+            "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\BricksClass\\BricksClass.csproj": {
+              "projectPath": "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\BricksClass\\BricksClass.csproj"
             },
-            "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\FiguresClasses\\FiguresClasses.csproj": {
-              "projectPath": "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\FiguresClasses\\FiguresClasses.csproj"
+            "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\FiguresClasses\\FiguresClasses.csproj": {
+              "projectPath": "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\FiguresClasses\\FiguresClasses.csproj"
             },
-            "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\TetrisLogic\\TetrisLogic.csproj": {
-              "projectPath": "C:\\Users\\Tom\\Desktop\\tetrisconsole (1)\\tetrisconsole\\TetrisLogic\\TetrisLogic.csproj"
+            "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\TetrisLogic\\TetrisLogic.csproj": {
+              "projectPath": "C:\\Users\\Tom\\Desktop\\Коммит Саши\\New folder\\TetrisLogic\\TetrisLogic.csproj"
             }
           }
         }

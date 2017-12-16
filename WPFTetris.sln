@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BricksClass", "BricksClass\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisLogic", "TetrisLogic\TetrisLogic.csproj", "{EC8F8386-D65C-43D0-B45E-950D9FE94C2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFUI", "WPFUI\WPFUI.csproj", "{68F99055-5D58-412C-81C6-D8333DA47AD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EC8F8386-D65C-43D0-B45E-950D9FE94C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC8F8386-D65C-43D0-B45E-950D9FE94C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC8F8386-D65C-43D0-B45E-950D9FE94C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F99055-5D58-412C-81C6-D8333DA47AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F99055-5D58-412C-81C6-D8333DA47AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F99055-5D58-412C-81C6-D8333DA47AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F99055-5D58-412C-81C6-D8333DA47AD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

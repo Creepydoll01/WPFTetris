@@ -1,6 +1,6 @@
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\BricksClass\bin\Debug\BricksClass.dll
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\BricksClass\bin\Debug\BricksClass.pdb
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\BricksClass\obj\Debug\BricksClass.csprojResolveAssemblyReference.cache
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\BricksClass\obj\Debug\BricksClass.csproj.CoreCompileInputs.cache
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\BricksClass\obj\Debug\BricksClass.dll
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\BricksClass\obj\Debug\BricksClass.pdb
+C:\Users\Tom\Desktop\Коммит Саши\New folder\BricksClass\bin\Debug\BricksClass.dll
+C:\Users\Tom\Desktop\Коммит Саши\New folder\BricksClass\bin\Debug\BricksClass.pdb
+C:\Users\Tom\Desktop\Коммит Саши\New folder\BricksClass\obj\Debug\BricksClass.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Desktop\Коммит Саши\New folder\BricksClass\obj\Debug\BricksClass.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Desktop\Коммит Саши\New folder\BricksClass\obj\Debug\BricksClass.dll
+C:\Users\Tom\Desktop\Коммит Саши\New folder\BricksClass\obj\Debug\BricksClass.pdb

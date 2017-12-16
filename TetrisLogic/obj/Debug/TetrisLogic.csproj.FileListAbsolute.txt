@@ -1,10 +1,10 @@
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\bin\Debug\TetrisLogic.dll
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\bin\Debug\TetrisLogic.pdb
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\bin\Debug\BricksClass.dll
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\bin\Debug\FiguresClasses.dll
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\bin\Debug\BricksClass.pdb
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\bin\Debug\FiguresClasses.pdb
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\obj\Debug\TetrisLogic.csprojResolveAssemblyReference.cache
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\obj\Debug\TetrisLogic.csproj.CoreCompileInputs.cache
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\obj\Debug\TetrisLogic.dll
-C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\TetrisLogic\obj\Debug\TetrisLogic.pdb
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\bin\Debug\TetrisLogic.dll
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\bin\Debug\TetrisLogic.pdb
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\bin\Debug\BricksClass.dll
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\bin\Debug\FiguresClasses.dll
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\bin\Debug\BricksClass.pdb
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\bin\Debug\FiguresClasses.pdb
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\obj\Debug\TetrisLogic.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\obj\Debug\TetrisLogic.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\obj\Debug\TetrisLogic.dll
+C:\Users\Tom\Desktop\Коммит Саши\New folder\TetrisLogic\obj\Debug\TetrisLogic.pdb

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using BricksClass;
 using FiguresClasses;
 
-namespace TetrisLogic
+namespace WPFUI
 {
    
     public class TetrisGrid

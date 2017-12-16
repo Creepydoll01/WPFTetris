@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using BricksClass;
 using FiguresClasses;
-using static TetrisLogic.MoveFigures;
-using static TetrisLogic.TetrisGrid;
+using static WPFUI.MoveFigures;
+using static WPFUI.TetrisGrid;
 
 
-namespace TetrisLogic
+namespace WPFUI
 {
     public delegate void Moving(ref Figures Figure);
     public class CollisionManager
@@ -81,7 +81,7 @@ namespace TetrisLogic
                 {
                     if(item.PosY==0)
                     {
-                        Game.GameOver();
+                        
                     }
                     IsSolidBelow = true;
                     return IsSolidBelow;
