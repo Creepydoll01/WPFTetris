@@ -1,0 +1,17 @@
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\ConsoleImplementation.deps.json
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\ConsoleImplementation.runtimeconfig.json
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\ConsoleImplementation.runtimeconfig.dev.json
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\ConsoleImplementation.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\ConsoleImplementation.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\BricksClass.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\FiguresClasses.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\TetrisLogic.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\BricksClass.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\FiguresClasses.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\TetrisLogic.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\ConsoleImplementation.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\ConsoleImplementation.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\ConsoleImplementation.AssemblyInfoInputs.cache
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\ConsoleImplementation.AssemblyInfo.cs
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\ConsoleImplementation.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\ConsoleImplementation.pdb

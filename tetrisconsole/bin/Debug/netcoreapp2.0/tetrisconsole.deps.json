@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "tetrisconsole/1.0.0": {
+        "dependencies": {
+          "BricksClass": "1.0.0",
+          "FiguresClasses": "1.0.0",
+          "TetrisLogic": "1.0.0"
+        },
+        "runtime": {
+          "tetrisconsole.dll": {}
+        }
+      },
+      "BricksClass/1.0.0": {
+        "runtime": {
+          "BricksClass.dll": {}
+        }
+      },
+      "FiguresClasses/1.0.0": {
+        "dependencies": {
+          "BricksClass": "1.0.0"
+        },
+        "runtime": {
+          "FiguresClasses.dll": {}
+        }
+      },
+      "TetrisLogic/1.0.0": {
+        "dependencies": {
+          "BricksClass": "1.0.0",
+          "FiguresClasses": "1.0.0"
+        },
+        "runtime": {
+          "TetrisLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tetrisconsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BricksClass/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FiguresClasses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TetrisLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

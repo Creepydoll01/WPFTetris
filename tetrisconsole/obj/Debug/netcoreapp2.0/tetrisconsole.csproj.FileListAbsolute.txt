@@ -1,0 +1,17 @@
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\tetrisconsole.deps.json
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\tetrisconsole.runtimeconfig.json
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\tetrisconsole.runtimeconfig.dev.json
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\tetrisconsole.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\tetrisconsole.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\tetrisconsole.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\tetrisconsole.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\tetrisconsole.AssemblyInfoInputs.cache
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\tetrisconsole.AssemblyInfo.cs
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\tetrisconsole.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\obj\Debug\netcoreapp2.0\tetrisconsole.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\BricksClass.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\FiguresClasses.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\BricksClass.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\FiguresClasses.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\TetrisLogic.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\tetrisconsole\bin\Debug\netcoreapp2.0\TetrisLogic.pdb

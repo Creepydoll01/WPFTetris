@@ -1,0 +1,8 @@
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\FiguresClasses\bin\Debug\FiguresClasses.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\FiguresClasses\bin\Debug\FiguresClasses.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\FiguresClasses\bin\Debug\BricksClass.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\FiguresClasses\bin\Debug\BricksClass.pdb
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\FiguresClasses\obj\Debug\FiguresClasses.csprojResolveAssemblyReference.cache
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\FiguresClasses\obj\Debug\FiguresClasses.csproj.CoreCompileInputs.cache
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\FiguresClasses\obj\Debug\FiguresClasses.dll
+C:\Users\Tom\Desktop\tetrisconsole (1)\tetrisconsole\FiguresClasses\obj\Debug\FiguresClasses.pdb
