@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using FiguresClasses;
 using BricksClass;
 
-namespace WPFUI
+namespace TetrisLogic
 {
     public class MoveFigures:Figures
     {

@@ -6,7 +6,7 @@ namespace FiguresClasses
 {
     public class Figures
     {
-
+        
         private List<Brick> _PreviousState;
 
         public List<Brick> PreviousState
@@ -79,7 +79,7 @@ namespace FiguresClasses
     }
 
 
-    public class FigureFactory
+    public class FigureFactory:Figures
     {
         static List<Figures> FiguresList = new List<Figures>();
         static Random rng = new Random();
@@ -95,8 +95,10 @@ namespace FiguresClasses
         static public Figures Create()
         {
             FillList();
-            int i = rng.Next(1, FiguresList.Count-1);
-            FiguresList[i].PreviousState = FiguresList[i - 1].FigureType;
+            int i = rng.Next(1, FiguresList.Count - 1);
+            
+           
+            FiguresList[i].PreviousState = FiguresList[i].FigureType;
             return FiguresList[i];
         }
 

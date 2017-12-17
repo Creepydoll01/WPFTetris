@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 using BricksClass;
 using FiguresClasses;
 
-namespace WPFUI
+namespace TetrisLogic
+
 {
    
     public class TetrisGrid
     {
 
-        public GameInfo Info = new GameInfo();
+        
 
-        public static List<Brick> Update(ref Figures Figure, ref List<Brick> TetrisGridEngine)
+        public static List<Brick> Update(Figures Figure, ref List<Brick> TetrisGridEngine)
         {
 
             foreach (Brick item in Figure.PreviousState)
@@ -25,6 +26,11 @@ namespace WPFUI
                 }
 
             foreach (Brick item in Figure.FigureType)
+            {
+                if (item.IsSolid == true)
+                {
+                    return TetrisGridEngine;
+                }
                 if (item.PosY >= 0)
                 {
                     TetrisGridEngine.Find(x => x.PosY == item.PosY && x.PosX == item.PosX).IsPresent = true;
@@ -33,7 +39,7 @@ namespace WPFUI
                         TetrisGridEngine.Find(x => x.PosY == item.PosY && x.PosX == item.PosX).IsMain = true;
                 }
 
-
+            }
             return TetrisGridEngine;
 
 
@@ -51,11 +57,23 @@ namespace WPFUI
             }
             return TetrisEngineGrid;
         }
+        static private int LinesCleared = 0;
 
-        public static GameInfo ClearRow(ref List<Brick> TetrisGridEngine)
+        public static int ClearLine(ref Figures Figure, ref List<Brick> TetrisGridEngine)
 
         {
-            GameInfo info = new GameInfo();
+            LinesCleared = 0;
+            foreach (Brick Item in Figure.FigureType)
+            {
+                Item.IsPresent = false;
+                Item.IsSolid = false;
+            }
+            foreach (Brick item in Figure.PreviousState)
+            {
+                item.IsPresent = false;
+                item.IsSolid = false;
+            }
+            
             List<Brick> NewGrid = new List<Brick>();
 
 
@@ -78,7 +96,8 @@ namespace WPFUI
                 }
                 if (j == 10)
                 {
-                    info.LinesCleared++;
+
+                    LinesCleared++;
 
 
                     for (j = 0; j < 10; j++)
@@ -119,10 +138,9 @@ namespace WPFUI
                 item.IsSolid = BrickArray[item.PosY, item.PosX];
                 item.IsPresent = BrickArray[item.PosY, item.PosX];
             }
-            Console.WriteLine("Brick array is " + BrickArray[19, 1]);
-            Console.WriteLine("ConsoleGridEngine is " + TetrisGridEngine.Find(x => x.PosY == 19 && x.PosX == 1).IsPresent);
+            
 
-            return info;
+            return LinesCleared;
         }
 
         

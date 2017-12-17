@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using BricksClass;
+using FiguresClasses;
 
 
 
@@ -20,7 +21,9 @@ namespace WPFUI
 {
     public class UI:MainWindow
     {
+        
         static public Rectangle[,] RectArray = new Rectangle[20, 10];
+        static public Rectangle[,] NewFigureArray = new Rectangle[5, 5];
         static public SolidColorBrush BrushDefault = new SolidColorBrush
         {
             Color = Colors.Gray
@@ -59,35 +62,72 @@ namespace WPFUI
 
 
         }
-      
-
-        static public void OnKeyDown(object sender, KeyEventArgs e)
+        static public void GenerateNextFigureGrid (Grid FigureGrid)
         {
-            if (e.Key == Key.Down)
+            for(int i = 0; i < 5; i++)
             {
-                NewGame.Down();
+                FigureGrid.RowDefinitions.Add(new RowDefinition());
+                FigureGrid.ColumnDefinitions.Add(new ColumnDefinition());
             }
+            for (int i = 0; i<5;i++)
+            {
+                for(int j = 0; j<5;j++)
+                {
+                    Rectangle Rect = new Rectangle();
+                    NewFigureArray[i, j] = Rect;
+                    FigureGrid.Children.Add(Rect);
+                    Grid.SetRow(Rect, i);
+                    Grid.SetColumn(Rect, j);
+                    Rect.Fill = BrushDefault;
+                }
+            }
+        }
+
+        
+        static public void DrawGrid(List<Brick> TetrisGrid)
+        {
+            foreach (Brick item in TetrisGrid)
+            {
+                if (item.IsPresent == true && !item.IsSolid)
+                {
+                    RectArray[item.PosY, item.PosX].Fill = BrushPresent;
+                }
+                else if (!item.IsSolid)
+                    RectArray[item.PosY, item.PosX].Fill = BrushDefault;
+            }
+        }
+        static public void DrawNextFigure(Figures Figure)
+        {
+            int x = 0, y = 0, shiftX = 0, shiftY = 0;
+            foreach (Rectangle item in NewFigureArray)
+                item.Fill = BrushDefault;
+
+            x = Figure.FigureType.Find(a=> a.IsMain == true).PosX;
+            y = Figure.FigureType.Find(a => a.IsMain == true).PosY;
+            shiftX = 2 - x;
+            shiftY = 2 - y;
+            
+            foreach (Brick item in Figure.FigureType)
+            {
+                NewFigureArray[item.PosY + shiftY, item.PosX + shiftX].Fill = BrushPresent;
+            }
+
+            
+            
         }
 
         static public void MoveLeft(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Left)
+            if (e.Key == Key.A)
             {
                 NewGame.Left();
                 
             }
         }
-        static public void CreateNew(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.Escape)
-            {
-                NewGame.DropFigure();
-
-            }
-        }
+       
         static public void MoveRight(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Right)
+            if (e.Key == Key.D)
             {
                 NewGame.Right();
             }

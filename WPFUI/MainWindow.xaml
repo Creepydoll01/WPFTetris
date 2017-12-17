@@ -5,9 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="435.612" Width="605.394" >
+        Title="MainWindow" Height="626.382" Width="614.49" >
     <Grid>
-        <Grid x:Name="WPFTetrisGrid"  HorizontalAlignment="Left" Height="300" Margin="49,34,0,0" VerticalAlignment="Top" Width="200"/>
+        <Grid x:Name="WPFTetrisGrid"  HorizontalAlignment="Left" Height="500" Margin="49,34,0,0" VerticalAlignment="Top" Width="250"/>
+        <Label  Content="Score:" HorizontalAlignment="Left" Height="27" Margin="355,218,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label x:Name="Score"   HorizontalAlignment="Left" Height="28" Margin="421,218,0,0" VerticalAlignment="Top" Width="44" RenderTransformOrigin="3.318,4.775"/>
+        <Grid x:Name="NewFigureGrid" HorizontalAlignment="Left" Height="130" Margin="335,34,0,0" VerticalAlignment="Top" Width="130"/>
 
     </Grid>
 </Window>

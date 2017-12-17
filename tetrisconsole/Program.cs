@@ -4,10 +4,10 @@ using System.Collections.Generic;
 
 using FiguresClasses;
 using BricksClass;
-using static WPFUI.MoveFigures;
-using static WPFUI.TetrisGrid;
-using static WPFUI.CollisionManager;
-using WPFUI;
+using static TetrisLogic.MoveFigures;
+using static TetrisLogic.TetrisGrid;
+using static TetrisLogic.CollisionManager;
+using TetrisLogic;
 
 
 namespace tetrisconsole

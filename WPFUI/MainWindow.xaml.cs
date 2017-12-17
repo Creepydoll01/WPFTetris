@@ -25,27 +25,30 @@ namespace WPFUI
     public partial class MainWindow : Window
     {
         static public Game NewGame;
-
+       
+        
 
         public MainWindow()
         {
             
             InitializeComponent();
-            this.KeyDown += UI.OnKeyDown;
+            
+           
             this.KeyDown += UI.MoveLeft;
             this.KeyDown += UI.MoveRight;
             this.KeyDown += UI.Rotate;
-            this.KeyDown += UI.CreateNew;
-            UI.GenerateGrid(WPFTetrisGrid);
-            NewGame = new Game();
             
-            NewGame.Play();
+            UI.GenerateGrid(WPFTetrisGrid);
+            UI.GenerateNextFigureGrid(NewFigureGrid);
+            NewGame = new Game();
+            NewGame.Play(Score);
+
 
 
         }
 
         
 
-
+        
     }
 }

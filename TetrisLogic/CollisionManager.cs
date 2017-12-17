@@ -5,26 +5,40 @@ using System.Text;
 using System.Threading.Tasks;
 using BricksClass;
 using FiguresClasses;
-using static WPFUI.MoveFigures;
-using static WPFUI.TetrisGrid;
+using static TetrisLogic.MoveFigures;
+using static TetrisLogic.TetrisGrid;
 
 
-namespace WPFUI
+namespace TetrisLogic
 {
     public delegate void Moving(ref Figures Figure);
     public class CollisionManager
     {
         
-        public static void MakeSolid(Figures Figure, ref List<Brick> TetrisGridEngine)
+        public static void MakeSolid( ref Figures Figure, ref List<Brick> TetrisGridEngine)
         {
             foreach (Brick item in Figure.FigureType)
-                TetrisGridEngine.Find(x => x.PosY == item.PosY && x.PosX == item.PosX).IsSolid = true;
+            {
+                if (item.PosY >= 0)
+                {
+                    item.IsSolid = true;
+                    TetrisGridEngine.Find(x => x.PosY >= 0 && x.PosY == item.PosY && x.PosX == item.PosX).IsSolid = true;
+                }
+                else return;
+            }
 
         }
         public static bool CheckCollision(Moving Move, ref Figures Figure, ref List<Brick> TetrisGridEngine, GameInfo Info)
         {
-
+            
             List<Brick> TempState = Figure.PreviousState.Select(o => Brick.Copy(o)).ToList();
+            foreach(Brick item in Figure.FigureType)
+            {
+                if (item.IsSolid == true)
+                {
+                    return false;
+                }
+            }
             Move(ref Figure);
             bool nonCollide = true;
             foreach (Brick item in Figure.FigureType)
@@ -32,7 +46,7 @@ namespace WPFUI
 
             {
 
-
+                
                 if (item.PosX > 9 || item.PosX < 0)
                 {
                     Figure.FigureType = Figure.PreviousState.Select(o => Brick.Copy(o)).ToList();
@@ -49,11 +63,12 @@ namespace WPFUI
                     Figure.PreviousState = TempState.Select(o => Brick.Copy(o)).ToList();
                     if (Move == MoveDown)
                     {
-                        MakeSolid(Figure, ref TetrisGridEngine);
-                        Info.LinesCleared += ClearRow(ref TetrisGridEngine).LinesCleared;
-                        Console.WriteLine("In collision ConsoleGridEngine is " + TetrisGridEngine.Find(x => x.PosY == 19 && x.PosX == 1).IsPresent);
+                        MakeSolid(ref Figure, ref TetrisGridEngine);
+                        Info.LinesCleared += ClearLine(ref Figure, ref TetrisGridEngine);
+                        
                         nonCollide = false;
                         //break;
+                        
                         return nonCollide;
                     }
                     else
@@ -64,10 +79,10 @@ namespace WPFUI
 
                 }
             }
-
-            Console.WriteLine("Before Update ConsoleGridEngine is " + TetrisGridEngine.Find(x => x.PosY == 19 && x.PosX == 1).IsPresent);
-            Update(ref Figure, ref TetrisGridEngine);
-            Console.WriteLine("After Update ConsoleGridEngine is " + TetrisGridEngine.Find(x => x.PosY == 19 && x.PosX == 1).IsPresent);
+            
+            
+            Update(Figure, ref TetrisGridEngine);
+            
             return nonCollide;
         }
         public static bool IsSolidBelow(Figures Figure, List<Brick> TetrisGridEngine)
@@ -79,12 +94,9 @@ namespace WPFUI
                 
                 if (item.PosX >= 0 && item.PosX < 10 && item.PosY > 0 && item.PosY < 20 && TetrisGridEngine.Find(x => x.PosY == item.PosY && x.PosX == item.PosX).IsSolid == true)
                 {
-                    if(item.PosY==0)
-                    {
-                        
-                    }
                     IsSolidBelow = true;
                     return IsSolidBelow;
+
                 }
                 else IsSolidBelow = false;
             }
