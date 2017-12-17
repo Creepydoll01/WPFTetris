@@ -67,7 +67,7 @@ namespace TetrisLogic
                         Info.LinesCleared += ClearLine(ref Figure, ref TetrisGridEngine);
                         
                         nonCollide = false;
-                        //break;
+                        
                         
                         return nonCollide;
                     }

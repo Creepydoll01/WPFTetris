@@ -11,6 +11,7 @@
         <Label  Content="Score:" HorizontalAlignment="Left" Height="27" Margin="355,218,0,0" VerticalAlignment="Top" Width="48"/>
         <Label x:Name="Score"   HorizontalAlignment="Left" Height="28" Margin="421,218,0,0" VerticalAlignment="Top" Width="44" RenderTransformOrigin="3.318,4.775"/>
         <Grid x:Name="NewFigureGrid" HorizontalAlignment="Left" Height="130" Margin="335,34,0,0" VerticalAlignment="Top" Width="130"/>
+        <TextBlock HorizontalAlignment="Left" Height="66" Margin="322,277,0,0" TextWrapping="Wrap" Text="Move Left - A Move Right - D Rotate - Space" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>

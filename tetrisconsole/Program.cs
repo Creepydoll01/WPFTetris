@@ -39,14 +39,7 @@ namespace tetrisconsole
                     
                         TetrisGrid[item.PosY, item.PosX] = "■";
                 }
-                if (item.IsMain == true)
-                {
-                   // TetrisGrid[item.PosY, item.PosX] = "a";
-                }
-                if (item.IsSolid == true)
-                {
-                    //TetrisGrid[item.PosY, item.PosX] = "a";
-                }
+                
 
             }
             return TetrisGrid;
@@ -111,7 +104,7 @@ namespace tetrisconsole
                         collide = false;
 
                     Console.Clear();
-                    Console.WriteLine(TetrisEngineGrid[191].IsPresent);
+                    
                     TetrisGrid = FillConsoleGrid(TetrisEngineGrid);
                     DrawGrid(TetrisGrid);
                     Figures newFigure = FigureFactory.Create();
